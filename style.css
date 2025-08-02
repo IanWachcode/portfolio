@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+    padding: 0;
+    color:black;
+    
+}
+.container{background: linear-gradient(120deg, #aca55a, #c5cbf9, #73c5cc, #70f5ea);
+    
+
+}
+h1,h2,h3{
+    margin-bottom: 14px;
+    color:rgb(141, 45, 179)
+}
+
+h1 {
+    font-size: 2.5em;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+p {
+    margin-bottom: 15px;
+}
+
+header, footer {
+    background-color: #531f5a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;    
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    color:rgb(141, 45, 179);
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: royalblue;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+} 
+
+input textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #fdcbf5;
+    border-radius: 5px;
+}
+button {
+    background-color: #e3bfe7;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #d1a0d6;
+}
+footer {
+    margin: 20px 0;
+    
+}   
+footer p {
+    margin: 0;
+    color: rgb(180, 81, 238);
+}
+footer a {
+    color: rgb(180, 81, 238);
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure{
+    text-align: center;
+    margin: 0;
+    padding: 0; 
+}
+
+figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #ac3aa2;
+}
